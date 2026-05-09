@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>NebulaMind AI — Think Beyond</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="nebula-canvas"></canvas>
+
+<nav>
+  <div class="logo">NebulaMind</div>
+  <ul class="nav-links">
+    <li><a href="#features">Features</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ul>
+  <button class="nav-cta">Get Started</button>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-badge"><span class="pulse-dot"></span>Now in Public Beta — Join 50k+ users</div>
+  <h1 class="hero-title">
+    <span>The AI that</span>
+    <span class="grad-text">thinks beyond</span>
+  </h1>
+  <p class="hero-sub">NebulaMind brings next-generation intelligence to your workflow. Automate, analyze, and accelerate everything with models trained on the edge of possibility.</p>
+  <div class="hero-btns">
+    <button class="btn-primary">Start for Free</button>
+    <button class="btn-secondary">Watch Demo →</button>
+  </div>
+  <div class="hero-stats">
+    <div class="stat-item"><div class="stat-num" data-count="50">0</div><div class="stat-label">K+ Users</div></div>
+    <div class="stat-item"><div class="stat-num" data-count="99">0</div><div class="stat-label">% Uptime</div></div>
+    <div class="stat-item"><div class="stat-num" data-count="12">0</div><div class="stat-label">ms Latency</div></div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee-wrap">
+  <div class="marquee-track" id="marquee">
+    <span class="marquee-item"><span class="marquee-dot"></span>Natural Language Processing</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Real-Time Inference</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Multi-Modal AI</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Code Generation</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Neural Search</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Autonomous Agents</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Enterprise Security</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>API-First Platform</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Natural Language Processing</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Real-Time Inference</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Multi-Modal AI</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Code Generation</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Neural Search</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Autonomous Agents</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>Enterprise Security</span>
+    <span class="marquee-item"><span class="marquee-dot"></span>API-First Platform</span>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section id="features">
+  <div class="reveal">
+    <div class="section-tag">— Core Capabilities</div>
+    <h2 class="section-title">Everything you need to build smarter</h2>
+    <p class="section-sub">Powerful tools designed for teams who move fast and think bigger.</p>
+  </div>
+  <div class="features-grid reveal">
+    <div class="feature-card"><div class="feature-icon">🧠</div><div class="feature-title">Adaptive Intelligence</div><div class="feature-desc">Models that learn your patterns, tone, and goals — delivering personalized outputs that improve over time.</div></div>
+    <div class="feature-card"><div class="feature-icon">⚡</div><div class="feature-title">Real-Time Inference</div><div class="feature-desc">Sub-12ms response times at global scale. Process millions of tokens per second without breaking a sweat.</div></div>
+    <div class="feature-card"><div class="feature-icon">🔗</div><div class="feature-title">Universal API</div><div class="feature-desc">Connect to any stack in minutes. REST, GraphQL, WebSocket — we speak your language fluently.</div></div>
+    <div class="feature-card"><div class="feature-icon">🛡️</div><div class="feature-title">Enterprise Security</div><div class="feature-desc">SOC 2 Type II, GDPR, HIPAA compliant. Your data never trains our models without explicit consent.</div></div>
+    <div class="feature-card"><div class="feature-icon">🤖</div><div class="feature-title">Autonomous Agents</div><div class="feature-desc">Deploy AI agents that plan, execute, and self-correct complex multi-step workflows autonomously.</div></div>
+    <div class="feature-card"><div class="feature-icon">📊</div><div class="feature-title">Deep Analytics</div><div class="feature-desc">Real-time dashboards showing usage patterns, cost optimization suggestions, and model performance metrics.</div></div>
+  </div>
+</section>
+
+<!-- DEMO -->
+<section id="demo">
+  <div class="demo-content reveal">
+    <div class="section-tag">— Live Preview</div>
+    <h2 class="section-title">See the mind at work</h2>
+    <p class="section-sub">Watch NebulaMind process complex requests in real time — from code generation to deep research synthesis.</p>
+    <button class="btn-primary" style="margin-top:1.5rem">Try it yourself →</button>
+  </div>
+  <div class="demo-visual reveal">
+    <div class="terminal-bar">
+      <div class="t-dot" style="background:#ff5f57"></div>
+      <div class="t-dot" style="background:#febc2e"></div>
+      <div class="t-dot" style="background:#28c840"></div>
+    </div>
+    <div class="terminal-body" id="terminal">
+      <div class="t-comment">// NebulaMind API v3.0</div>
+      <div>&nbsp;</div>
+      <div><span class="t-prompt">const </span>result = <span class="t-prompt">await </span>nebula.generate({</div>
+      <div>&nbsp;&nbsp;prompt: <span class="t-output">"Analyze market trends"</span>,</div>
+      <div>&nbsp;&nbsp;model: <span class="t-output">"nebula-ultra"</span>,</div>
+      <div>&nbsp;&nbsp;stream: <span class="t-prompt">true</span></div>
+      <div>});</div>
+      <div>&nbsp;</div>
+      <div class="t-comment">// Response received in 11ms</div>
+      <div><span class="t-output">&gt; Analyzing Q3 2025 data streams...</span></div>
+      <div><span class="t-output">&gt; Pattern detected: +340% growth in AI tooling</span></div>
+      <div><span class="t-output">&gt; Confidence: 97.4%</span> <span class="typing-cursor"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="reveal">
+    <div class="section-tag">— Pricing</div>
+    <h2 class="section-title" style="margin:0 auto 1rem;text-align:center">Simple, honest pricing</h2>
+    <p class="section-sub" style="margin:0 auto 0;text-align:center">Start free. Scale as you grow. No surprise bills.</p>
+  </div>
+  <div class="pricing-grid">
+    <div class="price-card reveal">
+      <div class="price-tier">Starter</div>
+      <div class="price-amount"><sup>$</sup>0</div>
+      <div class="price-period">forever free</div>
+      <ul class="price-features">
+        <li>100K tokens / month</li>
+        <li>3 AI models</li>
+        <li>Community support</li>
+        <li>Basic analytics</li>
+      </ul>
+      <button class="price-btn">Get Started Free</button>
+    </div>
+    <div class="price-card featured reveal">
+      <div class="price-tier">Pro</div>
+      <div class="price-amount"><sup>$</sup>49</div>
+      <div class="price-period">per month, billed annually</div>
+      <ul class="price-features">
+        <li>10M tokens / month</li>
+        <li>All 12 AI models</li>
+        <li>Priority support</li>
+        <li>Advanced analytics</li>
+        <li>Custom fine-tuning</li>
+        <li>API rate 1000 req/s</li>
+      </ul>
+      <button class="price-btn featured-btn">Start Pro Trial</button>
+    </div>
+    <div class="price-card reveal">
+      <div class="price-tier">Enterprise</div>
+      <div class="price-amount">Custom</div>
+      <div class="price-period">contact for pricing</div>
+      <ul class="price-features">
+        <li>Unlimited tokens</li>
+        <li>Dedicated cluster</li>
+        <li>SLA guarantee</li>
+        <li>On-premise deploy</li>
+        <li>Custom model training</li>
+        <li>24/7 dedicated support</li>
+      </ul>
+      <button class="price-btn">Talk to Sales →</button>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="reveal">
+    <div class="section-tag">— What people say</div>
+    <h2 class="section-title">Trusted by builders worldwide</h2>
+  </div>
+  <div class="testi-grid">
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"NebulaMind cut our content production time by 80%. It's not just fast — it actually understands our brand voice after two weeks of use."</div>
+      <div class="testi-author"><div class="testi-avatar" style="background:rgba(124,58,237,0.2);color:var(--accent)">SK</div><div><div class="testi-name">Sara Kim</div><div class="testi-role">Head of Content, Veritas Labs</div></div></div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"The API is a joy to work with. We integrated NebulaMind into our product in a single afternoon. The docs are exceptional."</div>
+      <div class="testi-author"><div class="testi-avatar" style="background:rgba(6,182,212,0.2);color:var(--accent2)">MR</div><div><div class="testi-name">Marco Rossi</div><div class="testi-role">CTO, Flowstack</div></div></div>
+    </div>
+    <div class="testi-card reveal">
+      <div class="stars">★★★★★</div>
+      <div class="testi-text">"We tried five AI platforms before NebulaMind. Nothing comes close to the accuracy and the speed. Our analysts are in love."</div>
+      <div class="testi-author"><div class="testi-avatar" style="background:rgba(244,114,182,0.2);color:var(--accent3)">AL</div><div><div class="testi-name">Aisha Lin</div><div class="testi-role">Data Lead, Cascade Capital</div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="reveal">
+    <div class="section-tag">— FAQ</div>
+    <h2 class="section-title">Frequently asked</h2>
+  </div>
+  <div style="margin-top:3rem">
+    <div class="faq-item reveal"><button class="faq-q">How does NebulaMind differ from other AI APIs? <span class="icon">+</span></button><div class="faq-a">NebulaMind is built for production use at scale. Unlike generic APIs, our models are optimized for latency, accuracy, and cost simultaneously — not just benchmark scores. We also offer fine-tuning on your proprietary data without compromising privacy.</div></div>
+    <div class="faq-item reveal"><button class="faq-q">Is my data safe and private? <span class="icon">+</span></button><div class="faq-a">Absolutely. We are SOC 2 Type II certified and GDPR compliant. Your data is never used to train our base models. You can also request complete data deletion at any time through your dashboard.</div></div>
+    <div class="faq-item reveal"><button class="faq-q">Can I switch plans at any time? <span class="icon">+</span></button><div class="faq-a">Yes — upgrade, downgrade, or cancel anytime. When you upgrade, you're charged the prorated difference. Downgrades take effect at the next billing cycle.</div></div>
+    <div class="faq-item reveal"><button class="faq-q">What models are available? <span class="icon">+</span></button><div class="faq-a">We offer 12 specialized models including Nebula-Ultra (general purpose), Nebula-Code (code generation), Nebula-Vision (multimodal), and Nebula-Agent (autonomous task execution), with new models added monthly.</div></div>
+    <div class="faq-item reveal"><button class="faq-q">Is there a free trial for the Pro plan? <span class="icon">+</span></button><div class="faq-a">Yes — 14 days full Pro access, no credit card required. You'll experience every feature at full capacity before deciding to subscribe.</div></div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="cta">
+  <div class="cta-inner reveal">
+    <h2 class="cta-title">Ready to think beyond?</h2>
+    <p class="cta-sub">Join 50,000+ teams already building with NebulaMind. Start in minutes.</p>
+    <div class="email-input-row">
+      <input class="email-input" type="email" placeholder="your@email.com"/>
+      <button class="btn-primary">Get Early Access</button>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-logo">NebulaMind</div>
+  <div>© 2025 NebulaMind Inc. All rights reserved.</div>
+  <div style="display:flex;gap:1.5rem">
+    <a href="#" style="color:var(--muted);text-decoration:none">Privacy</a>
+    <a href="#" style="color:var(--muted);text-decoration:none">Terms</a>
+    <a href="#" style="color:var(--muted);text-decoration:none">Docs</a>
+  </div>
+</footer>
+
+<script>
+// Custom cursor
+const cursor=document.getElementById('cursor'),ring=document.getElementById('cursor-ring');
+let mx=0,my=0,rx=0,ry=0;
+document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cursor.style.left=mx+'px';cursor.style.top=my+'px'});
+function animRing(){rx+=(mx-rx)*0.12;ry+=(my-ry)*0.12;ring.style.left=rx+'px';ring.style.top=ry+'px';requestAnimationFrame(animRing)}
+animRing();
+document.querySelectorAll('button,a,.feature-card,.testi-card,.price-card,.faq-q').forEach(el=>{
+  el.addEventListener('mouseenter',()=>{cursor.style.transform='translate(-50%,-50%) scale(2)';cursor.style.background='var(--accent3)'});
+  el.addEventListener('mouseleave',()=>{cursor.style.transform='translate(-50%,-50%) scale(1)';cursor.style.background='var(--accent2)'});
+});
+
+// Nebula canvas
+const canvas=document.getElementById('nebula-canvas');
+const ctx=canvas.getContext('2d');
+let W,H,particles=[];
+function resize(){W=canvas.width=window.innerWidth;H=canvas.height=window.innerHeight}
+resize();
+window.addEventListener('resize',resize);
+for(let i=0;i<180;i++){particles.push({x:Math.random()*2000,y:Math.random()*2000,r:Math.random()*1.5+0.3,vx:(Math.random()-0.5)*0.15,vy:(Math.random()-0.5)*0.15,a:Math.random()})}
+const colors=['rgba(124,58,237,','rgba(6,182,212,','rgba(244,114,182,'];
+function draw(){
+  ctx.clearRect(0,0,W,H);
+  // Nebula glow blobs
+  [[W*0.2,H*0.3,300,'rgba(124,58,237,0.06)'],[W*0.8,H*0.2,250,'rgba(6,182,212,0.05)'],[W*0.5,H*0.7,350,'rgba(244,114,182,0.04)']].forEach(([x,y,r,c])=>{
+    const g=ctx.createRadialGradient(x,y,0,x,y,r);g.addColorStop(0,c);g.addColorStop(1,'transparent');
+    ctx.fillStyle=g;ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);ctx.fill();
+  });
+  particles.forEach(p=>{
+    p.x+=p.vx;p.y+=p.vy;p.a+=0.003;
+    if(p.x<0)p.x=W;if(p.x>W)p.x=0;if(p.y<0)p.y=H;if(p.y>H)p.y=0;
+    const col=colors[Math.floor(p.r*2)%3];
+    ctx.fillStyle=col+(0.4+0.4*Math.sin(p.a))+')';
+    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,Math.PI*2);ctx.fill();
+  });
+  requestAnimationFrame(draw);
+}
+draw();
+
+// Scroll reveals
+const obs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// Counter animation
+function animateCounter(el,target){
+  let start=0;const dur=2000;const step=timestamp=>{
+    if(!start)start=timestamp;
+    const progress=Math.min((timestamp-start)/dur,1);
+    el.textContent=Math.floor(progress*target);
+    if(progress<1)requestAnimationFrame(step);else el.textContent=target;
+  };requestAnimationFrame(step);
+}
+const counterObs=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){const t=parseInt(e.target.dataset.count);animateCounter(e.target,t);counterObs.unobserve(e.target)}})},{threshold:0.5});
+document.querySelectorAll('[data-count]').forEach(el=>counterObs.observe(el));
+
+// FAQ
+document.querySelectorAll('.faq-q').forEach(btn=>{
+  btn.addEventListener('click',()=>{const item=btn.parentElement;const wasOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!wasOpen)item.classList.add('open')});
+});
+</script>
+</body>
+</html>
